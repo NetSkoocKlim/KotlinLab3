@@ -1,3 +1,125 @@
 <resources>
-    <string name="app_name">KotlinLab3</string>
+    <string name="app_name">30 Days of Android</string>
+    <string name="day_prefix">Day </string>
+    <string name="full_description_title">Tip Details</string>
+
+    <string name="tip_1_title">Learn Kotlin Basics</string>
+    <string name="tip_1_short">Start with variables and functions.</string>
+    <string name="tip_1_full">Kotlin is the official language for Android development. Focus on the difference between val and var, and master Null Safety.</string>
+
+    <string name="tip_2_title">Understand Lifecycle</string>
+    <string name="tip_2_short">Lifecycle is the foundation.</string>
+    <string name="tip_2_full">Understand when onPause or onStop are called. This helps avoid memory leaks and bugs during configuration changes.</string>
+
+    <string name="tip_3_title">Master ConstraintLayout</string>
+    <string name="tip_3_short">Flexible UI design.</string>
+    <string name="tip_3_full">Learn how to build complex interfaces without nesting. Chains and Guidelines are essential for performance.</string>
+
+    <string name="tip_4_title">RecyclerView</string>
+    <string name="tip_4_short">Efficient lists.</string>
+    <string name="tip_4_full">Learn to display large datasets. Using ViewHolder prevents unnecessary findViewById calls.</string>
+
+    <string name="tip_5_title">Logcat Mastery</string>
+    <string name="tip_5_short">Debugging is an art.</string>
+    <string name="tip_5_full">Don\'t guess why the app crashed. Learn to read StackTraces and filter logs by application tags.</string>
+
+    <string name="tip_6_title">Vector Graphics</string>
+    <string name="tip_6_short">Use Vector Assets.</string>
+    <string name="tip_6_full">Vector images (SVG/XML) don\'t lose quality when scaled and weigh much less than raster images (PNG/JPG).</string>
+
+    <string name="tip_7_title">View Binding</string>
+    <string name="tip_7_short">Forget about findViewById.</string>
+    <string name="tip_7_full">View Binding creates type-safe references to layout elements, eliminating NullPointerExceptions when accessing Views.</string>
+
+    <string name="tip_8_title">Material Design 3</string>
+    <string name="tip_8_short">Google\'s modern style.</string>
+    <string name="tip_8_full">Use MaterialCardView, buttons, and text fields according to MD3 standards for a native and beautiful UI.</string>
+
+    <string name="tip_9_title">ViewModel</string>
+    <string name="tip_9_short">Preserve screen data.</string>
+    <string name="tip_9_full">ViewModel allows you to store screen state data that doesn\'t disappear when the device rotates or the theme changes.</string>
+
+    <string name="tip_10_title">LiveData and Flow</string>
+    <string name="tip_10_short">Reactive UI updates.</string>
+    <string name="tip_10_full">Use observable objects to automatically update the interface when data changes in the database or network.</string>
+
+    <string name="tip_11_title">Coroutines</string>
+    <string name="tip_11_short">Asynchrony made easy.</string>
+    <string name="tip_11_full">Perform heavy tasks (network, DB) off the main thread to keep the application interface smooth.</string>
+
+    <string name="tip_12_title">Retrofit</string>
+    <string name="tip_12_short">Network API handling.</string>
+    <string name="tip_12_full">Retrofit is the de facto standard for HTTP requests. It automatically turns JSON responses into Kotlin objects.</string>
+
+    <string name="tip_13_title">Room Library</string>
+    <string name="tip_13_short">Local database.</string>
+    <string name="tip_13_full">Room is a wrapper over SQLite that allows you to conveniently save app data directly on the device.</string>
+
+    <string name="tip_14_title">Navigation Component</string>
+    <string name="tip_14_short">Manage transitions.</string>
+    <string name="tip_14_full">Use NavGraph to visualize paths between fragments and activities. This simplifies argument passing.</string>
+
+    <string name="tip_15_title">Dependency Injection</string>
+    <string name="tip_15_short">Hilt Implementation.</string>
+    <string name="tip_15_full">DI helps make code testable and modular. Hilt is the easiest way to implement DI in an Android project.</string>
+
+    <string name="tip_16_title">DataStore</string>
+    <string name="tip_16_short">New SharedPreferences.</string>
+    <string name="tip_16_full">DataStore is a modern storage for simple settings (key-value), working asynchronously via Flow.</string>
+
+    <string name="tip_17_title">WorkManager</string>
+    <string name="tip_17_short">Background tasks.</string>
+    <string name="tip_17_full">Use WorkManager for tasks that must be executed even if the app is closed (e.g., data synchronization).</string>
+
+    <string name="tip_18_title">Permissions</string>
+    <string name="tip_18_short">Requesting access.</string>
+    <string name="tip_18_full">Always check permissions at runtime (camera, location) and explain to the user why the app needs them.</string>
+
+    <string name="tip_19_title">Unit Testing</string>
+    <string name="tip_19_short">Check logic with code.</string>
+    <string name="tip_19_full">Write tests for ViewModels and repositories to ensure the correctness of your calculations.</string>
+
+    <string name="tip_20_title">Dark Mode</string>
+    <string name="tip_20_short">Night theme support.</string>
+    <string name="tip_20_full">Use adaptive colors in resources (values-night) so the app looks great in any lighting.</string>
+
+    <string name="tip_21_title">ProGuard and R8</string>
+    <string name="tip_21_short">Code shrinking.</string>
+    <string name="tip_21_full">Use R8 to remove unused code and obfuscate it to protect the app and reduce APK size.</string>
+
+    <string name="tip_22_title">App Bundle</string>
+    <string name="tip_22_short">.aab instead of .apk.</string>
+    <string name="tip_22_full">Publish apps to Google Play in Bundle format — this allows users to download only the resources needed for their screen.</string>
+
+    <string name="tip_23_title">Animations</string>
+    <string name="tip_23_short">Live interface.</string>
+    <string name="tip_23_full">Add smooth transitions between screens using MotionLayout or simple property animations (ObjectAnimator).</string>
+
+    <string name="tip_24_title">Memory Analysis</string>
+    <string name="tip_24_short">Find leaks with LeakCanary.</string>
+    <string name="tip_24_full">Memory leaks lead to lags and crashes. LeakCanary helps quickly find forgotten references to Context or Views.</string>
+
+    <string name="tip_25_title">Localization</string>
+    <string name="tip_25_short">Multilingual support.</string>
+    <string name="tip_25_full">Move all strings to strings.xml. This allows you to easily translate the app into other languages in the future.</string>
+
+    <string name="tip_26_title">Image Loading</string>
+    <string name="tip_26_short">Coil or Glide libraries.</string>
+    <string name="tip_26_full">Don\'t load images manually. These libraries handle caching and optimize memory consumption.</string>
+
+    <string name="tip_27_title">Clean Architecture</string>
+    <string name="tip_27_short">Divide and conquer.</string>
+    <string name="tip_27_full">Separate code into layers (Data, Domain, UI). This makes the project scalable and easy to maintain.</string>
+
+    <string name="tip_28_title">Fragments</string>
+    <string name="tip_28_short">Modular UI parts.</string>
+    <string name="tip_28_full">Use fragments to create adaptive designs for tablets and smartphones within a single Activity.</string>
+
+    <string name="tip_29_title">Layout Inspector</string>
+    <string name="tip_29_short">Check UI layers.</string>
+    <string name="tip_29_full">Use the built-in Android Studio tool to analyze View hierarchy in real-time.</string>
+
+    <string name="tip_30_title">Publication</string>
+    <string name="tip_30_short">The finish line.</string>
+    <string name="tip_30_full">Prepare screenshots, description, and an icon. Check the app for compliance with Google Play policies before uploading.</string>
 </resources>

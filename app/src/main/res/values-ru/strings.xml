@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">30 Дней Android</string>
+    <string name="day_prefix">День </string>
+    <string name="full_description_title">Подробный совет</string>
+
+    <string name="tip_1_title">Изучи основы Kotlin</string>
+    <string name="tip_1_short">Начни с переменных и функций.</string>
+    <string name="tip_1_full">Kotlin — официальный язык разработки под Android. Сфокусируйся на разнице между val и var, а также изучи Null Safety.</string>
+
+    <string name="tip_2_title">Пойми Lifecycle</string>
+    <string name="tip_2_short">Жизненный цикл — это база.</string>
+    <string name="tip_2_full">Разберись, когда вызывается onPause, а когда onStop. Это поможет избежать утечек памяти и багов при смене конфигурации.</string>
+
+    <string name="tip_3_title">ConstraintLayout</string>
+    <string name="tip_3_short">Гибкая верстка интерфейса.</string>
+    <string name="tip_3_full">Изучи, как строить сложные интерфейсы без вложенности. Цепочки (Chains) и гайдлайны — мастхэв для производительности.</string>
+
+    <string name="tip_4_title">RecyclerView</string>
+    <string name="tip_4_short">Эффективные списки.</string>
+    <string name="tip_4_full">Научись отображать большие наборы данных. Использование ViewHolder предотвращает лишние вызовы findViewById.</string>
+
+    <string name="tip_5_title">Работа с Logcat</string>
+    <string name="tip_5_short">Дебаг — это искусство.</string>
+    <string name="tip_5_full">Не гадай, почему приложение упало. Учись читать StackTrace и фильтровать логи по тегам приложения.</string>
+
+    <string name="tip_6_title">Векторная графика</string>
+    <string name="tip_6_short">Используй Vector Asset.</string>
+    <string name="tip_6_full">Векторные изображения (SVG/XML) не теряют качества при масштабировании и весят гораздо меньше растровых (PNG/JPG).</string>
+
+    <string name="tip_7_title">View Binding</string>
+    <string name="tip_7_short">Забудь про findViewById.</string>
+    <string name="tip_7_full">View Binding создает безопасные ссылки на элементы верстки, исключая NullPointerException при обращении к View.</string>
+
+    <string name="tip_8_title">Material Design 3</string>
+    <string name="tip_8_short">Современный стиль Google.</string>
+    <string name="tip_8_full">Используй MaterialCardView, кнопки и текстовые поля по стандартам MD3 для создания нативного и красивого интерфейса.</string>
+
+    <string name="tip_9_title">ViewModel</string>
+    <string name="tip_9_short">Сохраняй данные экрана.</string>
+    <string name="tip_9_full">ViewModel позволяет хранить данные состояния экрана, которые не исчезают при повороте устройства или смене темы.</string>
+
+    <string name="tip_10_title">LiveData и Flow</string>
+    <string name="tip_10_short">Реактивное обновление UI.</string>
+    <string name="tip_10_full">Используй наблюдаемые объекты для автоматического обновления интерфейса при изменении данных в базе или сети.</string>
+
+    <string name="tip_11_title">Корутины (Coroutines)</string>
+    <string name="tip_11_short">Асинхронность — это просто.</string>
+    <string name="tip_11_full">Выполняй тяжелые задачи (сеть, БД) вне основного потока, чтобы интерфейс приложения оставался плавным.</string>
+
+    <string name="tip_12_title">Retrofit</string>
+    <string name="tip_12_short">Работа с API сети.</string>
+    <string name="tip_12_full">Retrofit — стандарт де-факто для HTTP-запросов. Он автоматически превращает JSON-ответы в объекты Kotlin.</string>
+
+    <string name="tip_13_title">Библиотека Room</string>
+    <string name="tip_13_short">Локальная база данных.</string>
+    <string name="tip_13_full">Room — это обертка над SQLite, которая позволяет удобно сохранять данные приложения прямо в памяти устройства.</string>
+
+    <string name="tip_14_title">Navigation Component</string>
+    <string name="tip_14_short">Управление переходами.</string>
+    <string name="tip_14_full">Используй NavGraph для визуализации путей между фрагментами и Activity. Это упрощает передачу аргументов.</string>
+
+    <string name="tip_15_title">Dependency Injection</string>
+    <string name="tip_15_short">Внедрение зависимостей (Hilt).</string>
+    <string name="tip_15_full">DI помогает сделать код тестируемым и модульным. Hilt — это самый простой способ внедрить DI в Android-проект.</string>
+
+    <string name="tip_16_title">DataStore</string>
+    <string name="tip_16_short">Новый SharedPreferences.</string>
+    <string name="tip_16_full">DataStore — современное хранилище для простых настроек (ключ-значение), работающее асинхронно через Flow.</string>
+
+    <string name="tip_17_title">WorkManager</string>
+    <string name="tip_17_short">Фоновые задачи.</string>
+    <string name="tip_17_full">Используй WorkManager для задач, которые должны выполниться, даже если приложение закрыто (например, синхронизация данных).</string>
+
+    <string name="tip_18_title">Permissions</string>
+    <string name="tip_18_short">Запрос разрешений.</string>
+    <string name="tip_18_full">Всегда проверяй разрешения в рантайме (камера, локация) и объясняй пользователю, зачем они приложению.</string>
+
+    <string name="tip_19_title">Unit Testing</string>
+    <string name="tip_19_short">Проверяй логику кодом.</string>
+    <string name="tip_19_full">Пиши тесты для функций вью-моделей и репозиториев, чтобы быть уверенным в корректности расчетов.</string>
+
+    <string name="tip_20_title">Dark Mode</string>
+    <string name="tip_20_short">Поддержка темной темы.</string>
+    <string name="tip_20_full">Используй адаптивные цвета в ресурсах (values-night), чтобы приложение выглядело отлично при любом освещении.</string>
+
+    <string name="tip_21_title">ProGuard и R8</string>
+    <string name="tip_21_short">Сжатие кода.</string>
+    <string name="tip_21_full">Используй R8 для удаления неиспользуемого кода и обфускации, чтобы защитить приложение и уменьшить размер APK.</string>
+
+    <string name="tip_22_title">App Bundle</string>
+    <string name="tip_22_short">Формат .aab вместо .apk.</string>
+    <string name="tip_22_full">Публикуй приложения в Google Play в формате Bundle — это позволит пользователям скачивать только нужные ресурсы под их экран.</string>
+
+    <string name="tip_23_title">Анимации</string>
+    <string name="tip_23_short">Живой интерфейс.</string>
+    <string name="tip_23_full">Добавляй плавные переходы между экранами с помощью MotionLayout или простых анимаций свойств (ObjectAnimator).</string>
+
+    <string name="tip_24_title">Анализ памяти</string>
+    <string name="tip_24_short">Ищи утечки с LeakCanary.</string>
+    <string name="tip_24_full">Утечки памяти приводят к тормозам и вылетам. LeakCanary поможет быстро найти забытые ссылки на контекст или View.</string>
+
+    <string name="tip_25_title">Localization</string>
+    <string name="tip_25_short">Многоязычность.</string>
+    <string name="tip_25_full">Выноси все строки в strings.xml. Это позволит легко перевести приложение на другие языки в будущем.</string>
+
+    <string name="tip_26_title">Image Loading</string>
+    <string name="tip_26_short">Библиотеки Coil или Glide.</string>
+    <string name="tip_26_full">Не загружай картинки вручную. Эти библиотеки умеют кэшировать изображения и оптимизировать потребление памяти.</string>
+
+    <string name="tip_27_title">Clean Architecture</string>
+    <string name="tip_27_short">Разделяй и властвуй.</string>
+    <string name="tip_27_full">Разделяй код на слои (Data, Domain, UI). Это сделает проект масштабируемым и легким в поддержке.</string>
+
+    <string name="tip_28_title">Fragments</string>
+    <string name="tip_28_short">Модульные части экрана.</string>
+    <string name="tip_28_full">Используй фрагменты для создания адаптивного дизайна под планшеты и смартфоны внутри одной Activity.</string>
+
+    <string name="tip_29_title">Layout Inspector</string>
+    <string name="tip_29_short">Проверка слоев UI.</string>
+    <string name="tip_29_full">Используй встроенный в Android Studio инструмент для анализа иерархии View в реальном времени.</string>
+
+    <string name="tip_30_title">Публикация</string>
+    <string name="tip_30_short">Финишная прямая.</string>
+    <string name="tip_30_full">Подготовь скриншоты, описание и иконку. Проверь приложение на соответствие политикам Google Play перед загрузкой.</string>
+</resources>
